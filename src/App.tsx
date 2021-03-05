@@ -4,20 +4,20 @@ function App() {
     return (
         <div
             style={{
-                background: 'rgb(126 126 126)',
+                // background: 'rgb(47 116 192)',
                 height: '100vh',
                 padding: '20px',
             }}
         >
             <Button
-                // background="#fff"
-                // color="#000"
-                // borderColor="#000"
-                // outline
-                round
                 raise
             >
                 Click me please
+            </Button><br /><br />
+            <Button
+                outline
+            >
+                Hello
             </Button>
         </div>
     );
