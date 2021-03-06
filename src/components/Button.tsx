@@ -43,14 +43,17 @@ function Button({
         letter-spacing: 0.3px;
         text-transform: ${uppercase ? 'uppercase' : ''};
         cursor: pointer;
+        
         &:focus{
             outline: none;
         }
+        
         &:active{
             outline: none;
             box-shadow: 0 3px 0 rgb(9 30 66 / 10 %);
             top: 3px;
         }
+        
         &:hover{
             box-shadow: ${boxShadow ? '0 3px 5px rgb(9 30 66 / 10%), 0 0 1px rgb(9 30 66 / 31%)' : ''};
             transform: ${raise ? 'translate3d(0px, -2px, 0px)' : 'none'};
@@ -65,4 +68,5 @@ function Button({
         </StyledButton>
     )
 }
+
 export default Button;
