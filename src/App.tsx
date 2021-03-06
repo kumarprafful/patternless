@@ -14,9 +14,7 @@ function App() {
             >
                 Click me please
             </Button><br /><br />
-            <Button
-                outline
-            >
+            <Button>
                 Hello
             </Button>
         </div>
